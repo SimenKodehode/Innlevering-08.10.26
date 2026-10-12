@@ -2,17 +2,22 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-  body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
-
-  main {
-    flex: 1;
-  }
 }
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+#footer-btn {
+  text-decoration: none;
+  color: #f5f5f0;
+}
+
 .btn {
   color: #f5f5f0;
   background-color: #2f3e46;
@@ -59,7 +64,7 @@ button:active {
 
 #body-main-tilte {
   font-family: "Isometra", serif;
-  font-weight: 800;
+  font-weight: 400;
   font-style: bold;
   margin: 10px;
   padding: 5px 5px;
@@ -100,4 +105,12 @@ button:active {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+#gallery-link {
+  padding: 5px 5px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #f5f5f0;
 }

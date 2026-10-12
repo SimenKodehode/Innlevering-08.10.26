@@ -3,37 +3,57 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="gallery.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Isometra&family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Gallery</title>
   </head>
   <body>
     <header><h1>Gallery</h1></header>
     <main>
-      <h1>Some images and videos of planes that I like</h1>
-      <section>
-        <h2>F22</h2>
-        <img
-          src="./images/F22.jpg"
-          alt="American F22 stealthfighter flying with a blue sky in the backround "
-        />
-      </section>
-      <section>
-        <h2>F15</h2>
-        <img
-          src="./images/F15.jpg"
-          alt="American F15 fighterjet flying with snowcovered mountains in the backround"
-        />
-      </section>
-      <section>
-        <h2>Rafale</h2>
-        <img
-          src="./images/Rafale.jpg"
-          alt=" Indian airforce Rafale taxing on the runway"
-        />
-      </section>
-      <section>
-        <h2>Video 1</h2>
-      </section>
+      <h2 id="">Some images and videos of planes that I like</h2>
+      <div id="gallery-box">
+        <section class="picture-box" id="F22">
+          <h3>F22</h3>
+          <img
+            src="./images/F22.jpg"
+            alt="USAF F22 stealthfighter in flight with a blue sky in the backround "
+          />
+        </section>
+        <section class="picture-box" id="F15">
+          <h3>F15</h3>
+          <img
+            src="./images/F15.jpg"
+            alt="USAF F15 fighterjet in flight with snowcovered mountains in the backround"
+          />
+        </section>
+        <section class="picture-box" id="Rafale">
+          <h3>Rafale</h3>
+          <img
+            src="./images/Rafale.jpg"
+            alt=" Indian airforce Rafale taxing on the runway"
+          />
+        </section>
+        <section class="picture-box" id="A320N">
+          <h3>A320N</h3>
+          <video
+            src="./videos/14833232_640_360_30fps.mp4"
+            loop
+            autoplay
+            controls
+            muted
+          ></video>
+        </section>
+      </div>
     </main>
-    <footer></footer>
+    <footer>
+      <section>
+        <a href="index.html" id="home-link">Go home to the main page!</a>
+      </section>
+    </footer>
   </body>
 </html>
