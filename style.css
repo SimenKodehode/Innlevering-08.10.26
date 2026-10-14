@@ -65,10 +65,9 @@ button:active {
   justify-content: center;
 }
 
-#body-main-tilte {
+#body-main-title {
   font-family: "Isometra", serif;
   font-weight: 400;
-  font-style: bold;
   margin: 10px;
   padding: 5px 5px;
   border: 2px solid;
@@ -77,9 +76,6 @@ button:active {
 
 #body-main-text {
   border: #2f3e46 2px solid;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   max-width: 60%;
   margin: 10px 10px;
   padding: 5px 5px;
