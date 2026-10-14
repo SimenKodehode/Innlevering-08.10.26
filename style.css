@@ -8,6 +8,9 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: "Isometra", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 main {
@@ -74,9 +77,6 @@ button:active {
 
 #body-main-text {
   border: #2f3e46 2px solid;
-  font-family: "Isometra", serif;
-  font-weight: 400;
-  font-style: normal;
   display: flex;
   justify-content: center;
   align-items: center;
